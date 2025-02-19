@@ -13,7 +13,7 @@ dependencies:
 
   altair:
     git:
-      url: ssh://git@gitlab.eurekalabs.com.br:2222/flutter/eureka_bloc.git
+      url: https://github.com/ahmedilios/eureka_bloc-master.git
       ref: 0.1.1+8
 
   bloc: ^4.0.0
