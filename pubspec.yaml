@@ -1,0 +1,39 @@
+name: vega
+description: Eureka flutter UI and flow components.
+version: 0.1.1+8
+author: ""
+homepage: ""
+
+environment:
+  sdk: ">=2.6.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  altair:
+    git:
+      url: ssh://git@gitlab.eurekalabs.com.br:2222/flutter/eureka_bloc.git
+      ref: 0.1.1+8
+
+  bloc: ^4.0.0
+  flutter_bloc: ^4.0.0
+  dio:
+  flutter_slidable: ^0.5.4
+  flutter_spinkit: ^4.1.2
+  cached_network_image: ^2.2.0+1
+  #  flutter_html: ^1.0.0
+  email_validator: ^1.0.4
+  cpfcnpj: ^1.0.3
+  flutter_masked_text: ^0.8.0
+  quiver: ^2.1.3
+  tuple: ^1.0.3
+  flushbar: ^1.10.4
+  intl:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
